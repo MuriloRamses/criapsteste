@@ -6,6 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {
+		"br.com.criaps.index.controller",
 		"br.com.criaps.cadastroaluno.controller",
 		"br.com.criaps.competencias.controller",
 		"br.com.criaps.login.controller",
