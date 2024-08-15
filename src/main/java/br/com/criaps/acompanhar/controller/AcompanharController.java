@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class AcompanharController {
 
-	@GetMapping("/telaacompanhar")
+	@GetMapping("/acompanhar")
 	public String fornecedor() {
-		return "/acompanhamento/telaacompanhar.html";
+		return "/acompanhamento/acompanhar.html";
 }
 }
